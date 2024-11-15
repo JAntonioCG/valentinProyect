@@ -67,7 +67,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="email">Email</label>
+                  <label for="email">Correo</label>
                   <input type="email" class="form-control" id="email" name="email" placeholder="Email" autocomplete="off">
                 </div>
 
@@ -77,35 +77,35 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="cpassword">Confirm password</label>
+                  <label for="cpassword">Confirmar password</label>
                   <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password" autocomplete="off">
                 </div>
 
                 <div class="form-group">
-                  <label for="fname">First name</label>
+                  <label for="fname">Nombres</label>
                   <input type="text" class="form-control" id="fname" name="fname" placeholder="First name" autocomplete="off">
                 </div>
 
                 <div class="form-group">
-                  <label for="lname">Last name</label>
+                  <label for="lname">Apellidos</label>
                   <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name" autocomplete="off">
                 </div>
 
                 <div class="form-group">
-                  <label for="phone">Phone</label>
+                  <label for="phone">Telefono</label>
                   <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" autocomplete="off">
                 </div>
 
                 <div class="form-group">
-                  <label for="gender">Gender</label>
+                  <label for="gender">Genero</label>
                   <div class="radio">
                     <label>
                       <input type="radio" name="gender" id="male" value="1">
-                      Male
+                      Hombre
                     </label>
                     <label>
                       <input type="radio" name="gender" id="female" value="2">
-                      Female
+                      Mujer
                     </label>
                   </div>
                 </div>
@@ -114,7 +114,7 @@
               <!-- /.box-body -->
 
               <div class="box-footer">
-                <button type="submit" class="btn btn-primary">Save Changes</button>
+                <button type="submit" class="btn btn-primary">Save Cambios</button>
                 <a href="<?php echo base_url('users/') ?>" class="btn btn-warning">Back</a>
               </div>
             </form>

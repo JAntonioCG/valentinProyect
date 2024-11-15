@@ -67,39 +67,39 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="email">Email</label>
+                  <label for="email">correo</label>
                   <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="<?php echo $user_data['email'] ?>" autocomplete="off">
                 </div>                
 
                 <div class="form-group">
-                  <label for="fname">First name</label>
+                  <label for="fname">Nombres</label>
                   <input type="text" class="form-control" id="fname" name="fname" placeholder="First name" value="<?php echo $user_data['firstname'] ?>" autocomplete="off">
                 </div>
 
                 <div class="form-group">
-                  <label for="lname">Last name</label>
+                  <label for="lname">Apellidos</label>
                   <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name" value="<?php echo $user_data['lastname'] ?>" autocomplete="off">
                 </div>
 
                 <div class="form-group">
-                  <label for="phone">Phone</label>
+                  <label for="phone">telefono</label>
                   <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" value="<?php echo $user_data['phone'] ?>" autocomplete="off">
                 </div>
 
                 <div class="form-group">
-                  <label for="gender">Gender</label>
+                  <label for="gender">Genero</label>
                   <div class="radio">
                     <label>
                       <input type="radio" name="gender" id="male" value="1" <?php if($user_data['gender'] == 1) {
                         echo "checked";
                       } ?>>
-                      Male
+                      Hombre
                     </label>
                     <label>
                       <input type="radio" name="gender" id="female" value="2" <?php if($user_data['gender'] == 2) {
                         echo "checked";
                       } ?>>
-                      Female
+                      Mujer
                     </label>
                   </div>
                 </div>
@@ -107,7 +107,7 @@
                 <div class="form-group">
                   <div class="alert alert-info alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      Leave the password field empty if you don't want to change.
+                      No poner contraseña en caso de NO queres cambiarla.
                   </div>
                 </div>
 
